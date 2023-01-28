@@ -9,7 +9,7 @@ h1{
     color: blue;
 }
 
-section{
+.flexibla-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -18,6 +18,8 @@ section{
     padding: 5%;
     
 }
+
+
 .half-width img{
     width: 70%;
     
@@ -39,4 +41,32 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     background-size: 50px 130px;
+}
+.Experience-area{
+    background-image: url(/images/box-circle.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 180px;
+}
+.Experience-item{
+    width: 50%;
+    padding: 5% 5%;
+    margin: 5% 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+  
+}
+#full-stake-developer{
+    border-left: 7px solid orange;
+
+}
+#baby-developer{
+    border-left: 7px solid blue;
+}
+h2{
+    font-size: 30px;
+}
+footer p{
+    text-align: center;
+
 }
